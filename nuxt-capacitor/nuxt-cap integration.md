@@ -134,7 +134,13 @@ For **iOS** , we can make change in scripts of package.json as **node/sync.js io
 
 [Reference - MexsonFernandes/nuxt-capacitor-app](https://github.com/MexsonFernandes/nuxt-capacitor-app#create-resources)
 
-#### Packaging our Electron app to executable file
+#### Resources for Electron
+
+![Rersource](https://github.com/anshcena/blog/blob/main/nuxt-capacitor/img/electron%20resources.jpg?raw=true)
+
+Replace these assets icons from your icons 
+
+### Packaging our Electron app to executable file
 
 We will be using [electron-builder](https://www.npmjs.com/package/electron-builder) so install using :
 
