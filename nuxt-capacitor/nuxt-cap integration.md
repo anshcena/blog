@@ -54,7 +54,7 @@ We have successfully added Capacitor to our Nuxt.js app.
 
 ### **[Electron](https://capacitor-community.github.io/electron/#/./getting-started/index)**
 
-Run the command below in your root directory to install the platform for use with the @capacitor/cli.
+Run the command below in your root directory to install the platform for use with the **@capacitor/cli**
 
 > npm i @capacitor-community/electron
 
@@ -98,20 +98,19 @@ Capacitor has a tiny development web server for local testing, but it’s recomm
 
 # Generating resources
 
-* Create resources folder in root directory.
-* Add icon.png with size - 1024x1024 px Add splash.png with size - 2732x3732 px
+* Create *resources* folder in root directory.
+* Add *icon.png* with size - 1024x1024 px Add *splash.png* with size - 2732x3732 px
 * So we have placed icon and splash in resources folder, now we need these in all sizes compatible with our android and ios platforms.
-* lets add script to generate it and then sync it to platform.
-* Add the following command to scripts in package.json file of nuxt app
+* Lets add script to generate it and then *sync* it to platform.
+* Add the following command to scripts in **package.json** file of nuxt app
 
 > "resources": "cordova-res-generator -p android,ios && node resources/sync.js android"
 
-As we see, we have used cordova-res-generator so lets install this generator by
+As we see, we have used **[cordova-res-generator](https://www.npmjs.com/package/cordova-res-generator#installation)** so lets install this generator by
 
 > yarn add --dev cordova-res-generator
 
 We have successfully add res-generator now we are ready to go but we still have **node resources/sync.js android**
-
 
 This will sync the resources to android platform using sync.js, so lets add sync.js in resources where we have added our icon and splash
 
@@ -154,3 +153,7 @@ Run Command :
 >yarn electron:build-windows // windows
 
 >yarn electron:build-mac     // mac
+
+:fire: We have generated our execcutable files with this script :fire:
+
+*App name and package can be changed from build inside package.json of electron i.e electron/package.json *
