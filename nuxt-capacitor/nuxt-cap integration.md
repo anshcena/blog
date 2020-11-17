@@ -133,7 +133,7 @@ For **iOS** , we can make change in scripts of package.json as **node/sync.js io
 
 *Make sure to put logo in splash screen in middle as well as small for better resource generated results and optimized images.*
 
-[Reference - MexsonFernandes/nuxt-capacitor-app](https://github.com/MexsonFernandes/nuxt-capacitor-app)
+[Reference - MexsonFernandes/nuxt-capacitor-app](https://github.com/MexsonFernandes/nuxt-capacitor-app#create-resources)
 
 #### Packaging our Electron app to executable file
 
