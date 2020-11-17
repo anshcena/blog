@@ -37,10 +37,10 @@ Lets see how our capacitor.config.js files look :
 ```
 #### LINK NUXT TO CAPACITOR
 
-Use the --web-dir flag to set the web assets folder (the default is www)
+Use the **--web-dir** flag to set the web assets folder (the default is *www*)
 Configuring this **capacitor.config.json** will link our nuxt app to capacitor. We need to change
 
-> "webDir": "www" property to "webDir": "dist"
+> "webDir": "www"  to "webDir": "dist"
 
 Also, we can configure our "appId" and "appName". Now our app is ready to be compiled and build.
 
