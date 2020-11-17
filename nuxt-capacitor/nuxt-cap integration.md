@@ -316,4 +316,5 @@ We have added build script as well as for **mac** and **windows** application.
 
 Run Command : 
 >yarn electron:build-windows // windows
+
 >yarn electron:build-mac     // mac
