@@ -115,7 +115,7 @@ We have successfully add res-generator now we are ready to go but we still have 
 
 This will sync the resources to android platform using sync.js, so lets add sync.js in resources where we have added our icon and splash
 
-[Sync.js](https://github.com/anshcena/blog/blob/main/nuxt-capacitor/sync.js)
+> [Sync.js](https://github.com/anshcena/blog/blob/main/nuxt-capacitor/sync.js)
 
 Copy the code from above mentioned [Sync.js](https://github.com/anshcena/blog/blob/main/nuxt-capacitor/sync.js) to generate sync.js inside resources.
 
