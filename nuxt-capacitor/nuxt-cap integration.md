@@ -1,9 +1,10 @@
 **Capacitor** is an open source native runtime for building cross-platform mobile and Progressive Web Apps, with JavaScript, HTML, and CSS. 
 
-For this first we will need a nuxt.js application where we will integrate our capacitor. Nuxt.js can be seen from the [docs here](https://nuxtjs.org/docs/2.x/get-started/installation). Lets start with adding Capacitor to an existing Nuxt app.
+For this first we will need a **nuxt.js** application where we will integrate our capacitor. Nuxt.js can be seen from the [docs here](https://nuxtjs.org/docs/2.x/get-started/installation). Lets start with adding Capacitor to an existing Nuxt app.
 
 [Capacitor](https://capacitorjs.com/docs/getting-started) allows to build our app with modern web components that is cross-platform that is  Android, iOS, PWA and electron.
 
+#### Add CAPACITOR
 To add Capacitor to your web app, run the following commands:
 
 ```
@@ -34,9 +35,9 @@ Lets see how our capacitor.config.js files look :
   "cordova": {}
 }
 ```
+#### LINK NUXT TO CAPACITOR
 
 Use the --web-dir flag to set the web assets folder (the default is www)
-.
 Configuring this **capacitor.config.json** will link our nuxt app to capacitor. We need to change
 
 > "webDir": "www" property to "webDir": "dist"
@@ -49,9 +50,9 @@ Also, we can configure our "appId" and "appName". Now our app is ready to be com
 
 We have successfully added Capacitor to our Nuxt.js app.
 
-Lets add Platforms :
+# Lets add Platforms :
 
-**[Electron](https://capacitor-community.github.io/electron/#/./getting-started/index)**
+### **[Electron](https://capacitor-community.github.io/electron/#/./getting-started/index)**
 
 Run the command below in your root directory to install the platform for use with the @capacitor/cli.
 
@@ -65,7 +66,7 @@ So we have successfully added the electron platfrom to our application. Lets ope
 
 > npx cap open @capacitor-community/electron
 
-**[Android & iOS](https://capacitorjs.com/docs/basics/running-your-app)**
+### **[Android & iOS](https://capacitorjs.com/docs/basics/running-your-app)**
 
 > npx cap add android npx cap add ios
 
@@ -87,7 +88,7 @@ For opening iOS application :
 
 **XCode** will be opened and we can run our app.
 
-**[Progressive Web App](https://capacitorjs.com/docs/basics/running-your-app#progressive-web-app)**
+### **[Progressive Web App](https://capacitorjs.com/docs/basics/running-your-app#progressive-web-app)**
 
 Capacitor has a tiny development web server for local testing, but it’s recommended to run your web app using your framework of choice’s server tools.
 
