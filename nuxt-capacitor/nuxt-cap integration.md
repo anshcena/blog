@@ -287,7 +287,7 @@ if (process.argv.includes('ios')) {
 
 so our resources will have these 3 :
 
-![Structure resources](/static/cms/sync-file.jpg "Resources")
+![Structure resources](https://github.com/anshcena/blog/blob/main/nuxt-capacitor/img/sync%20file.jpg?raw=true "Resources")
 
 We are ready to generate and sync now
 
