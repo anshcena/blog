@@ -68,10 +68,11 @@ So we have successfully added the electron platfrom to our application. Lets ope
 
 ### **[Android & iOS](https://capacitorjs.com/docs/basics/running-your-app)**
 
-> npx cap add android 
+> npx cap add android
+
 > npx cap add ios
 
-Lets copy all of our web code from /dist to our native app directories for mobile platform functionalities. Specific modifications in IDE can made for each.
+Lets copy all of our web code from **/dist** to our native app directories for mobile platform functionalities. *Specific modifications* in IDE can made for each.
 
 > npx cap copy
 
