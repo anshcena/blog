@@ -156,4 +156,4 @@ Run Command :
 
 :fire: We have generated our execcutable files with this script :fire:
 
-*App name and package can be changed from build inside package.json of electron i.e electron/package.json *
+*App name and package can be changed from build inside package.json of electron*
