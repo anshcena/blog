@@ -1,3 +1,5 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fanshcena%2Fhit-counter&count_bg=%23536DCB&title_bg=%230A7251&icon=electron.svg&icon_color=%23FFFFFF&title=blog+hit&edge_flat=false)](https://hits.seeyoufarm.com)
+
 ![Cover](https://github.com/anshcena/blog/blob/main/nuxt-capacitor/img/cover.png?raw=true)
 **Capacitor** is an open source native runtime for building cross-platform mobile and Progressive Web Apps, with JavaScript, HTML, and CSS. 
 
