@@ -1,6 +1,8 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fanshcena%2Fhit-counter&count_bg=%23536DCB&title_bg=%230A7251&icon=electron.svg&icon_color=%23FFFFFF&title=blog+hit&edge_flat=false)](https://hits.seeyoufarm.com)
 
-![Cover](https://github.com/anshcena/blog/blob/main/nuxt-capacitor/img/cover.png?raw=true)
+<div align="center">
+  <img src="https://github.com/anshcena/blog/blob/main/nuxt-capacitor/img/cover.png?raw=true" width="800" >
+  </div>
 **Capacitor** is an open source native runtime for building cross-platform mobile and Progressive Web Apps, with JavaScript, HTML, and CSS. 
 
 For this first we will need a **nuxt.js** application where we will integrate our capacitor. Nuxt.js can be seen from the [docs here](https://nuxtjs.org/docs/2.x/get-started/installation). Lets start with adding Capacitor to an existing Nuxt app.
