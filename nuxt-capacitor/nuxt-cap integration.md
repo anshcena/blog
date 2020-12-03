@@ -3,6 +3,9 @@
 <div align="center">
   <img src="https://github.com/anshcena/blog/blob/main/nuxt-capacitor/img/cover.png?raw=true" width="800" >
   </div>
+  
+  # NUXT-CAPACITOR-INTEGRATION
+  
 **Capacitor** is an open source native runtime for building cross-platform mobile and Progressive Web Apps, with JavaScript, HTML, and CSS. 
 
 For this first we will need a **nuxt.js** application where we will integrate our capacitor. Nuxt.js can be seen from the [docs here](https://nuxtjs.org/docs/2.x/get-started/installation). Lets start with adding Capacitor to an existing Nuxt app.
