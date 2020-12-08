@@ -1,2 +1,2 @@
-# blog
+# blogs
 My blog repository
